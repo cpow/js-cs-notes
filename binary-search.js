@@ -12,7 +12,7 @@ function binarySearch(array, val){
   (function search(){
     currentIndex = Math.floor((minimumIndex + maxIndex) / 2);
 
-    console.log(`curently looking between ${minimumIndex} and ${maxIndex}`);
+    console.log(`curently looking between ${array[minimumIndex]} and ${array[maxIndex]}`);
 
     if (array[currentIndex] === val ){
       console.log(`FOUND IT! ${val} == ${array[currentIndex]}`);
@@ -31,7 +31,9 @@ function binarySearch(array, val){
   })();
 }
 
-let arr = [1,2,3,4,5,6,7,9,10,11,12];
+let arr = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
 binarySearch(arr, 5);
 binarySearch(arr, 3);
-binarySearch(arr, 12);
+binarySearch(arr, 59);
+binarySearch(arr, 61);
+binarySearch(arr, 7);
