@@ -20,7 +20,7 @@ class Ship {
 
   checkIfDead(){
     if (this.isDead()){
-      console.log("YOU GOT ME, I'M SUNK!!! FUCK!");
+      console.log("YOU GOT ME, I'M SUNK!!!");
     }
   }
 
@@ -64,9 +64,9 @@ class Game {
 }
 
 //Console commands after loading this in
-let ship = new Ship(2, [[1,1],[1,2]]);
-let game = new Game([ship]);
-
-game.hit([1,1]); //Hits the ship once
-game.hit([1,0]); //Hits nothing
-game.hit([1,2]); //Hits the ship one last time. sinking it and ending game. GG
+// let ship = new Ship(2, [[1,1],[1,2]]);
+// let game = new Game([ship]);
+//
+// game.hit([1,1]); //Hits the ship once
+// game.hit([1,0]); //Hits nothing
+// game.hit([1,2]); //Hits the ship one last time. sinking it and ending game. GG
