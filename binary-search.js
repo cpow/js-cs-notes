@@ -8,7 +8,6 @@ function binarySearch(array, val){
   let maxIndex = array.length - 1;
   let currentIndex;
 
-
   (function search(){
     currentIndex = Math.floor((minimumIndex + maxIndex) / 2);
 
