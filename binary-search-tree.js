@@ -60,11 +60,11 @@ class BinarySearchTree {
   }
 }
 
-let newTree = new BinarySearchTree();
-newTree.add(5);
-newTree.add(10);
-newTree.add(1);
-newTree.add(2);
-let foundNode = newTree.find(2);
-console.log(newTree);
-console.log(foundNode);
+// let newTree = new BinarySearchTree();
+// newTree.add(5);
+// newTree.add(10);
+// newTree.add(1);
+// newTree.add(2);
+// let foundNode = newTree.find(2);
+// console.log(newTree);
+// console.log(foundNode);
